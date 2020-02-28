@@ -1,0 +1,189 @@
+.error {
+
+    color: red;
+
+}
+
+.success {
+
+    color: green;
+
+}
+
+textarea {
+
+    resize: vertical;
+
+}
+
+.modal-body {
+
+    max-height: 400px;
+
+    overflow: auto;
+
+}
+
+.msgconforspandis span {
+
+    word-wrap: break-word;
+
+}
+
+.acen {
+
+    text-align: center;
+
+}
+
+.filecondivforne{
+
+    background: #efefef none repeat scroll 0 0;
+
+    margin: 5px;
+
+    padding: 10px;
+
+}
+
+.cpforall {
+
+    cursor: pointer;
+
+}
+
+.loadmodal {
+
+    display:    none;
+
+    position:   fixed;
+
+    z-index:    10000;
+
+    top:        0;
+
+    left:       0;
+
+    height:     100%;
+
+    width:      100%;
+
+    background: rgba( 255, 255, 255, .8 ) 
+
+    url('../images/loading.gif') 
+
+                50% 50% 
+
+                no-repeat;
+
+}
+
+/* When the body has the loading class, we turn
+
+   the scrollbar off with overflow:hidden */
+
+body.loading {
+
+    overflow: hidden;   
+
+}
+
+/* Anytime the body has the loading class, our
+
+   modal element will be visible */
+
+body.loading .loadmodal {
+
+    display: block;
+
+}
+
+.sidebar-menu ul {
+
+    width: auto !important;
+
+}
+
+#example2 td a {
+
+    padding: 0px 10px 0px 0px;
+
+}
+
+.clonedeals {
+
+    margin-bottom: 10px;
+
+}
+
+.uplink {
+
+    display: block;
+
+    text-align: center;
+
+}
+
+.deleteproftrash {
+
+    position: absolute;
+
+    top: 0;
+
+    right: 0;
+
+}
+
+.imgconprof {
+
+    height: 75px;
+
+    padding: 5px;
+
+    position: relative;
+
+    vertical-align: middle;
+
+    overflow: hidden;
+
+}
+
+.profimagedis {
+
+    height: auto;
+
+    width: 60px
+
+}
+
+.widthonprof {
+
+    width: 105px !important;
+
+    margin-top: 10px;
+
+}
+
+.orderIpBox{
+
+	width: 100% !important;
+
+}
+
+
+
+.parent_comp_img {
+
+    width: 100%;
+
+}
+
+.parent_comp_fancy_link {
+
+    width: 50px;
+
+    height: 50px;
+
+    display: inline-block;
+
+}
